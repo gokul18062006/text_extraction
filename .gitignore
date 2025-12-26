@@ -1,0 +1,72 @@
+# Dataset
+data/
+
+# Model files
+*.pth
+*.h5
+*.pkl
+*.pt
+best_model_pytorch.pth
+tamil_ocr_pytorch_final.pth
+best_model.h5
+tamil_ocr_model_final.h5
+
+# Class mappings (optional - remove if you want to commit)
+class_names.json
+class_names_pytorch.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyTorch
+lightning_logs/
+wandb/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
